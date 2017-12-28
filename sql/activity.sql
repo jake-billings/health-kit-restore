@@ -1,0 +1,1 @@
+select datetime(energy_burned_goal_date+978307200,'unixepoch','utc') as "Energy Burned Goal Date", datetime(cache_index+978307200,'unixepoch','utc') as "cache_index", energy_burned, energy_burned_goal, active_hours, active_hours_goal, brisk_minutes, brisk_minutes_goal, steps, walk_distance from activity_caches
